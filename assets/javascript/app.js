@@ -1,16 +1,70 @@
 $(document).ready(function() {
 
-//object that holds all questions and answer info
+//object that holds all questions and answer information
 var questions = {
     zero: {
-        question: "sup",
-        answers: ["a", "b", "c", "d"],
-        correct: "a"
+        question: "What vitamin is produced when a person is exposed to sunlight",
+        answers: ["Vitamin C", "Vitamin A", "Vitamin D", "Vitamin E"],
+        correct: "Vitamin D"
     },
     one: {
-     	question: "yo",
-        answers: ["a", "b", "c", "d"],
-        correct: "d"
+     	question: "Which planet in our solar system has the most oxygen?",
+        answers: ["Venus", "Earth", "Mercury", "Saturn"],
+        correct: "Earth"
+    },
+
+      two: {
+     	question: "Which planet in our solar system has the most oxygen?",
+        answers: ["Venus", "Earth", "Mercury", "Saturn"],
+        correct: "Earth"
+    },
+
+      three: {
+     	question: "Fe is the chemical symbol for what element?",
+        answers: ["Fluorine", "Iron", "Francium", "Potassium"],
+        correct: "Iron"
+    },
+
+      four: {
+     	question: "Which bone is the longest bone in the human body?",
+        answers: ["Femur", "Humerus", "Tibia", "Fibula"],
+        correct: "Femur"
+    },
+
+      five: {
+     	question: "How many planets in our solar system have moons?",
+        answers: ["Two", "Five", "Six", "Four"],
+        correct: "Six"
+    },
+
+      six: {
+     	question: "Diamonds are made up almost entirely of what element?",
+        answers: ["Oxygen", "Carbon", "Zinc", "Boron"],
+        correct: "Carbon"
+    },
+
+      seven: {
+     	question: "Which planet is farthest from the sun?",
+        answers: ["Saturn", "Venus", "Uranus", "Neptune"],
+        correct: "Neptune"
+    },
+
+      eight: {
+     	question: "What is the largest organ of the human body?",
+        answers: ["Skin", "Liver", "Brain", "Heart"],
+        correct: "Skin"
+    },
+
+      nine: {
+     	question: "What is the most abundant element in the earth’s atmosphere?",
+        answers: ["Oxygen", "Nitrogen", "Carbon", "Hydrogen"],
+        correct: "Nitrogen"
+    },
+
+      ten: {
+     	question: "What is the smallest planet in our solar system?",
+        answers: ["Venus", "Earth", "Mercury", "Saturn"],
+        correct: "Mercury"
     },
 };
 

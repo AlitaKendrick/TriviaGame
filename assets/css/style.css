@@ -1,7 +1,24 @@
 body {
+background-image: url("https://image.shutterstock.com/z/stock-vector-hand-drawn-science-formulas-on-chalkboard-for-background-289219460.jpg");
 
 }
 
+.navbar {
+	background-color: #ebebeb;
+}
+
 .main {
-	background-color: orange;
+	background-color: #aa1211;
+	padding: 10%;
+	color: #ebebeb;
+}
+
+.start {
+	background-color: black;
+}
+
+.answers p:hover {
+	color: black;
+	border: 2px;
+	border-style: solid;
 }
