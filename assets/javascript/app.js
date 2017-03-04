@@ -130,7 +130,7 @@ function showQA() {
                 $(".answers p").remove();
                 $(answerDiv).remove();
                 $(".main").append(rightDiv);
-                $(".rightAns").text("OPPS! THE CORRECT ANSWER WAS " + questions[key].correct);
+                $(".rightAns").text("OPPS! THE CORRECT ANSWER WAS: " + questions[key].correct);
                 incorrect++;
             }
             n++;
@@ -155,7 +155,7 @@ var counter = setInterval(count, 500);
 //shows time remaining at the top of each question
 function count() {
     time--
-    $(".countdown h3").html("TIME REMAINING " + time);
+    $(".countdown h3").html("TIME REMAINING: " + time);
      
     if (time < 1) {
     clearInterval(counter);
@@ -164,7 +164,7 @@ function count() {
     $(".answers p").remove();
     $(answerDiv).remove();
     $(".main").append(rightDiv);
-    $(".rightAns").html("<h2>OUT OF TIME!</h2><h1>THE CORRECT ANSWER WAS: " + questions[key].correct + ".</h1>");
+    $(".rightAns").html("OUT OF TIME! THE CORRECT ANSWER WAS: " + questions[key].correct);
     timeout++;
     n++;
     key = keys[n];
