@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-//object that holds all questions and answer information
+//object that holds all questions and answer info
 var questions = {
     zero: {
         question: "sup",
