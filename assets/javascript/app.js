@@ -13,11 +13,11 @@ var questions = {
         correct: "Earth"
     },
 
-      two: {
-     	question: "Which planet in our solar system has the most oxygen?",
-        answers: ["Venus", "Earth", "Mercury", "Saturn"],
-        correct: "Earth"
-    },
+    //   two: {
+    //  	question: "Which planet in our solar system has the most oxygen?",
+    //     answers: ["Venus", "Earth", "Mercury", "Saturn"],
+    //     correct: "Earth"
+    // },
 
       three: {
      	question: "Fe is the chemical symbol for what element?",
