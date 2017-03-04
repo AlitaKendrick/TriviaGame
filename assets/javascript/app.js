@@ -77,7 +77,7 @@ var answerDiv = $("<div class='answers'></div>");
 //object keys to return questions in order
 var keys = Object.keys(questions);
 var key = keys[n];
-var time = 20;
+var time = 30;
 var n = 0;
 
 //function with reset and game setup
@@ -91,7 +91,7 @@ function setup() {
     key = keys[n];
 
     var reset = function() {
-        time = 20;
+        time = 30;
         $(".rightAns").empty();
         $(".rightAns").remove();
         $(".main").append(timerDiv);
@@ -141,9 +141,9 @@ function showQA() {
                 	displayFinalScore();
 
                 } else {
-                    setTimeout(countReset, 2000);
-                    setTimeout(reset, 2000);
-                    setTimeout(showQA, 2000);
+                    setTimeout(countReset, 3000);
+                    setTimeout(reset, 3000);
+                    setTimeout(showQA, 3000);
                 }
     });
 }
@@ -172,9 +172,9 @@ function count() {
     	if (checkIfLast()) {
     	displayFinalScore();
     	} else {
-    	setTimeout(countReset, 2000);
-    	setTimeout(reset, 2000);
-    	setTimeout(showQA, 2000);
+    	setTimeout(countReset, 3000);
+    	setTimeout(reset, 3000);
+    	setTimeout(showQA, 3000);
     	}
     }
 }
@@ -197,7 +197,7 @@ function checkIfLast() {
 //displays final score after 'check if last' returns yes
 function displayFinalScore() {
     $(".rightAns").remove();
-    $(".start").css("margin-top", "20px");
+    $(".start").css("margin-top", "30px");
     $(".start").css("display", "inline");
     $(".main").prepend("<h2>UNANSWERED: " + timeout + "</h2>");
     $(".main").prepend("<h2>INCORRECT: " + incorrect + "</h2>");
